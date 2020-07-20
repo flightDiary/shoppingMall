@@ -1,0 +1,13 @@
+<!--pages/home/home.wxml-->
+<text>pages/home/home.wxml</text>
+<view>我是home</view>
+<view>{{msg}}</view>
+
+<!-- 列表渲染 -->
+<view wx:for="{{array}}" wx:key='key'>{{item}}</view>
+
+<!-- 条件渲染 -->
+<view wx:if="{{view=='aaa'}}">aaa</view>
+<view wx:elif="{{view=='bbb'}}">bbb</view>
+<view wx:else="{{view=='ccc'}}">ccc</view>
+

@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/userinfo/userinfo"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ffffaa",
+    "navigationBarTitleText": "firstchat",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#ffaacc",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"./icons/home.png",
+        "selectedIconPath":"./icons/home-o.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath":"./icons/cart.png",
+        "selectedIconPath":"./icons/cart-o.png"
+      },
+      {
+        "pagePath": "pages/userinfo/userinfo",
+        "text": "用户",
+        "iconPath":"./icons/my.png",
+        "selectedIconPath":"./icons/my-o.png"
+      }
+    ]
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
